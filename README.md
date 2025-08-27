@@ -5,8 +5,8 @@ Published by [Bluefire Redteam](https://bluefire-redteam.com)
 
 ---
 
-![npm version](https://img.shields.io/npm/v/@<your-scope>/nx-s1ngularity-check)
-![npm downloads](https://img.shields.io/npm/dt/@<your-scope>/nx-s1ngularity-check)
+![npm (scoped)](https://img.shields.io/npm/v/@bluefire-redteam/nx-s1ngularity-check)
+
 
 
 ## 🚨 What Happened?
@@ -116,5 +116,4 @@ Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
 ## 📜 License
 MIT – free to use and share. Please credit **Bluefire Redteam** when referencing.
 
-![npm (scoped)](https://img.shields.io/npm/v/@bluefire-redteam/nx-s1ngularity-check)
 
