@@ -1,13 +1,13 @@
-# 🔍 Bluefire Redteam – Nx "s1ngularity" Supply Chain Scanner
-
-**Free open-source tool to detect if your projects or systems were impacted by the August 2025 Nx `s1ngularity` compromise.**  
-Published by [Bluefire Redteam](https://bluefire-redteam.com)
-
----
+# 🔍 Bluefire Nx "s1ngularity" Supply Chain Scanner
 
 ![npm (scoped)](https://img.shields.io/npm/v/@bluefire-redteam/nx-s1ngularity-check)
+![license](https://img.shields.io/github/license/bluefire-redteam/bluefire-nx-check)
+![build](https://img.shields.io/github/actions/workflow/status/bluefire-redteam/bluefire-nx-check/ci.yml?branch=main)
 
+**Free, open-source scanner from [Bluefire Redteam](https://bluefireredteam.com)**  
+Detect if your systems or projects were impacted by the August 2025 Nx *s1ngularity* supply-chain compromise.  
 
+---
 
 ## 🚨 What Happened?
 On **Aug 26–27, 2025**, multiple malicious versions of the **Nx build system packages** were published to npm.  
@@ -22,7 +22,7 @@ They contained a **postinstall malware (`telemetry.js`)** that:
 ---
 
 ## ✅ What This Tool Does
-`bluefire-nx-check` scans your environment for **all known indicators of compromise (IoCs):**
+`@bluefire-redteam/nx-s1ngularity-check` scans your environment for **all known indicators of compromise (IoCs):**
 
 - **Malicious versions** of Nx / @nx packages in:
   - `package-lock.json`, `yarn.lock`, `pnpm-lock.yaml`
@@ -43,21 +43,14 @@ They contained a **postinstall malware (`telemetry.js`)** that:
 
 ## 🚀 Quick Start
 
-Run locally (no install needed):
+Run directly with `npx` (no install needed):
 
 ```bash
-npx bluefire-nx-check
+npx @bluefire-redteam/nx-s1ngularity-check
 ```
 
-Optional GitHub/org check:
-
-```bash
-GH_TOKEN=ghp_xxx BLUEFIRE_ORGS="your-org,another-org" npx bluefire-nx-check
-```
-
-**Exit code:**  
-- `0` → No issues detected  
-- `1` → IoCs or malicious versions found  
+> ⚠️ Use the scoped name `@bluefire-redteam/nx-s1ngularity-check`.  
+> Do **not** use the unscoped `bluefire-nx-check` package — that is unrelated and will show a “vibe-coded” message.
 
 ---
 
@@ -66,17 +59,15 @@ GH_TOKEN=ghp_xxx BLUEFIRE_ORGS="your-org,another-org" npx bluefire-nx-check
 ```bash
 === Bluefire Nx s1ngularity Comprehensive Scanner ===
 
-❌ Affected Nx versions in lockfiles/npm ls
 ❌ Host IoCs detected (.bashrc/.zshrc/tmp)
-❌ results.b64 file detected locally
 
 --- JSON ---
 {
   "summary": {
-    "affectedFound": true,
+    "affectedFound": false,
     "iocFound": true,
     "nodeModulesFound": false,
-    "resultsB64Found": true,
+    "resultsB64Found": false,
     "ghFound": false,
     "severity": "high"
   }
@@ -105,15 +96,13 @@ GH_TOKEN=ghp_xxx BLUEFIRE_ORGS="your-org,another-org" npx bluefire-nx-check
 ---
 
 ## 🏢 About Bluefire Redteam
-Bluefire Redteam is a global company with expertise in **offensive security, AI red teaming, and supply chain defense**.  
+Bluefire Redteam is a global leader in **offensive security, AI red teaming, and supply chain defense**.  
 We built this tool to help the community **detect, contain, and respond** to the Nx compromise.
 
 👉 Need help with **incident response or supply chain hardening?**  
-Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
+Contact us: [bluefireredteam.com](https://bluefireredteam.com)
 
 ---
 
 ## 📜 License
 MIT – free to use and share. Please credit **Bluefire Redteam** when referencing.
-
-
