@@ -117,6 +117,4 @@ Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
 MIT – free to use and share. Please credit **Bluefire Redteam** when referencing.
 
 ![npm (scoped)](https://img.shields.io/npm/v/@bluefire-redteam/nx-s1ngularity-check)
-![license](https://img.shields.io/github/license/bluefire-redteam/nx-s1ngularity-check)
-![build](https://img.shields.io/github/actions/workflow/status/bluefire-redteam/nx-s1ngularity-check/ci.yml?branch=main)
 
