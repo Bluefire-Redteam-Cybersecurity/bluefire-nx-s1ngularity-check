@@ -4,7 +4,7 @@
 ![license](https://img.shields.io/github/license/bluefire-redteam/nx-s1ngularity-check)
 ![build](https://img.shields.io/github/actions/workflow/status/bluefire-redteam/nx-s1ngularity-check/ci.yml?branch=main)
 
-**Free, open-source scanner from [Bluefire Redteam](https://bluefireredteam.com)**  
+**Free, open-source scanner from [Bluefire Redteam](https://bluefire-redteam.com)**  
 Detect if your systems or projects were impacted by the August 2025 Nx *s1ngularity* supply-chain compromise.  
 
 ---
@@ -100,7 +100,7 @@ Bluefire Redteam is a global leader in **offensive security, AI red teaming, and
 We built this tool to help the community **detect, contain, and respond** to the Nx compromise.
 
 👉 Need help with **incident response or supply chain hardening?**  
-Contact us: [bluefireredteam.com](https://bluefireredteam.com)
+Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
 
 ---
 
