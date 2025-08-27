@@ -14,3 +14,8 @@ coverage
 .vscode
 .idea
 .DS_Store
+
+# Extras
+results.b64
+.env
+.DS_Store
