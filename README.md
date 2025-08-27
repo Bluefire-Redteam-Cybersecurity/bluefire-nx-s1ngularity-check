@@ -48,7 +48,7 @@ npx @bluefire-redteam/nx-s1ngularity-check
 ```
 
 > ⚠️ Use the scoped name `@bluefire-redteam/nx-s1ngularity-check`.  
-> Do **not** use the unscoped `bluefire-nx-check` package — that is unrelated and will show a “vibe-coded” message.
+> Do **not** use any unscoped package — that is not us!
 
 ---
 
