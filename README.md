@@ -1,7 +1,7 @@
 # 🔍 Bluefire Redteam – Nx "s1ngularity" Supply Chain Scanner
 
 **Free open-source tool to detect if your projects or systems were impacted by the August 2025 Nx `s1ngularity` compromise.**  
-Published by [Bluefire Redteam](https://bluefireredteam.com) – industry leaders in offensive security & supply chain defense.
+Published by [Bluefire Redteam](https://bluefire-redteam.com)
 
 ---
 
