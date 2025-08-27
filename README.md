@@ -111,3 +111,9 @@ Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
 
 ## 📜 License
 MIT – free to use and share. Please credit **Bluefire Redteam** when referencing.
+
+
+![npm](https://img.shields.io/npm/v/bluefire-nx-check)
+![license](https://img.shields.io/github/license/bluefire-redteam/bluefire-nx-check)
+![build](https://img.shields.io/github/actions/workflow/status/bluefire-redteam/bluefire-nx-check/ci.yml?branch=main)
+
