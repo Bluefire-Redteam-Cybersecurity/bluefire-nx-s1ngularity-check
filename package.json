@@ -17,13 +17,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluefire-redteam/bluefire-nx-check.git"
+    "url": "git+https://github.com/bluefire-redteam/bluefire-nx-check.git"
   },
   "bugs": {
     "url": "https://github.com/bluefire-redteam/bluefire-nx-check/issues"
   },
   "homepage": "https://bluefireredteam.com",
+  "author": "Bluefire Redteam <contact@bluefireredteam.com>",
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
