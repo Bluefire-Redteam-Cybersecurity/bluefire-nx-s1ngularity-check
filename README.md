@@ -1,4 +1,4 @@
-# 🔍 Bluefire Nx "s1ngularity" Supply Chain Scanner
+# 🔍 Bluefire Redteam's Nx "s1ngularity" Supply Chain Scanner
 
 ![npm (scoped)](https://img.shields.io/npm/v/@bluefire-redteam/nx-s1ngularity-check)
 ![license](https://img.shields.io/github/license/bluefire-redteam/nx-s1ngularity-check)
