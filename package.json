@@ -1,6 +1,6 @@
 {
   "name": "bluefire-nx-check",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bluefire Redteam scanner for Nx 's1ngularity' supply-chain compromise (malicious versions, IoCs, exfil).",
   "bin": {
     "bluefire-nx-check": "./bin/index.js"
