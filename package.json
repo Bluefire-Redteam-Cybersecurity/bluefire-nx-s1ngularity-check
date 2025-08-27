@@ -1,6 +1,7 @@
 {
-  "name": "bluefire-nx-check",
-  "version": "0.1.2",
+   "name": "@bluefireredteam/nx-s1ngularity-check",
+  "version": "1.0.3",
+  "publishConfig": { "access": "public" }
   "description": "Bluefire Redteam scanner for Nx 's1ngularity' supply-chain compromise (malicious versions, IoCs, exfil).",
   "bin": {
     "bluefire-nx-check": "./bin/index.js"
@@ -26,8 +27,5 @@
   "author": "Bluefire Redteam <contact@bluefireredteam.com>",
   "engines": {
     "node": ">=18"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
