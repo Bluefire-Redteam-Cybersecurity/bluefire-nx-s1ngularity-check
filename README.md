@@ -5,6 +5,10 @@ Published by [Bluefire Redteam](https://bluefire-redteam.com)
 
 ---
 
+![npm version](https://img.shields.io/npm/v/@<your-scope>/nx-s1ngularity-check)
+![npm downloads](https://img.shields.io/npm/dt/@<your-scope>/nx-s1ngularity-check)
+
+
 ## 🚨 What Happened?
 On **Aug 26–27, 2025**, multiple malicious versions of the **Nx build system packages** were published to npm.  
 They contained a **postinstall malware (`telemetry.js`)** that:
