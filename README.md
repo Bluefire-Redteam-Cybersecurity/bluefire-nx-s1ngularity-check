@@ -101,11 +101,11 @@ GH_TOKEN=ghp_xxx BLUEFIRE_ORGS="your-org,another-org" npx bluefire-nx-check
 ---
 
 ## 🏢 About Bluefire Redteam
-Bluefire Redteam is a global leader in **offensive security, AI red teaming, and supply chain defense**.  
+Bluefire Redteam is a global company with expertise in **offensive security, AI red teaming, and supply chain defense**.  
 We built this tool to help the community **detect, contain, and respond** to the Nx compromise.
 
 👉 Need help with **incident response or supply chain hardening?**  
-Contact us: [bluefireredteam.com](https://bluefireredteam.com)
+Contact us: [bluefire-redteam.com](https://bluefire-redteam.com)
 
 ---
 
