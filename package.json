@@ -1,9 +1,10 @@
 {
-    "name": "@bluefire-redteam/nx-s1ngularity-check",
-  "version": "1.0.3",
-  "bin": { "bluefire-nx-check": "./bin/index.js" },
-  "publishConfig": { "access": "public" },
+  "name": "@bluefire-redteam/nx-s1ngularity-check",
+  "version": "1.0.4",
   "description": "Bluefire Redteam scanner for Nx 's1ngularity' supply-chain compromise (malicious versions, IoCs, exfil).",
+  "bin": {
+    "bluefire-nx-check": "./bin/index.js"
+  },
   "type": "module",
   "license": "MIT",
   "keywords": [
@@ -21,9 +22,12 @@
   "bugs": {
     "url": "https://github.com/bluefire-redteam/bluefire-nx-check/issues"
   },
-  "homepage": "https://bluefireredteam.com",
+  "homepage": "https://github.com/bluefire-redteam/bluefire-nx-check#readme",
   "author": "Bluefire Redteam <contact@bluefireredteam.com>",
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
